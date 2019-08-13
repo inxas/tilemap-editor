@@ -76,6 +76,7 @@ public final class EditorFrame extends JFrame {
     }
     /**
      * このクラスの唯一のインスタンスを取得します。
+     * @return インスタンス
      */
     public static EditorFrame getInstance() {
         return InstanceHolder.INSTANCE;

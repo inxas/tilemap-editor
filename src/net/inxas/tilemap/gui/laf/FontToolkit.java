@@ -51,7 +51,7 @@ public class FontToolkit {
     private static FontUIResource customTitlebarFont;
 
     /**
-     * {@value #DEFAULT_FONTS}を基にデフォルトのフォントを返します。
+     * {@link #DEFAULT_FONTS}を基にデフォルトのフォントを返します。
      * @param fontSize フォントの大きさ
      * @return デフォルトのフォント
      */
@@ -60,7 +60,7 @@ public class FontToolkit {
     }
 
     /**
-     * {@value #DEFAULT_FONTS}を基にデフォルトのフォントを返します。
+     * {@link #DEFAULT_FONTS}を基にデフォルトのフォントを返します。
      * フォントサイズは24です。
      * @return デフォルトのフォント
      */
@@ -69,7 +69,7 @@ public class FontToolkit {
     }
 
     /**
-     * {@value #DEFAULT_TITLEBAR_FONTS}を基に、デフォルトのタイトルバーフォントを返します。
+     * {@link #DEFAULT_TITLEBAR_FONTS}を基に、デフォルトのタイトルバーフォントを返します。
      * @return デフォルトのタイトルバーフォント
      */
     public static FontUIResource getDefaultTitlebarFontUIResource() {
@@ -99,7 +99,7 @@ public class FontToolkit {
 
     /**
      * タイトルバーフォントを設定します。
-     * @param font
+     * @param font タイトルバーフォント
      */
     public static void setTitlebarFont(Font font) {
         if(font != null)customTitlebarFont = new FontUIResource(font);

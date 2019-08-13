@@ -33,6 +33,7 @@ public final class Log {
      * このメソッドで出力を失敗した場合は何も行いません。
      * @param message 出力するメッセージ
      * @param path 出力先のパス
+     * @param newLine ログの最後に改行を挿入するならtrue
      */
     private static void output(String message,Path path,boolean newLine) {
         if(!Files.isDirectory(ROOT) || Files.notExists(ROOT)) {

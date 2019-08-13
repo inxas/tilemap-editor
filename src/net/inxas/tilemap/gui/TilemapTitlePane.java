@@ -404,14 +404,14 @@ public class TilemapTitlePane extends JComponent implements MouseListener,MouseM
         window.setLocation(x, y);
     }
     /**
-     * {@value #pressedPoint}を設定します。
+     * {@link #pressedPoint}を設定します。
      */
     @Override
     public void mousePressed(MouseEvent e) {
         pressedPoint = e.getPoint();
     }
     /**
-     * {@value #pressedPoint}を解除します。
+     * {@link #pressedPoint}を解除します。
      */
     @Override
     public void mouseReleased(MouseEvent e) {

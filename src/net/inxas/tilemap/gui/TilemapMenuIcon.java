@@ -66,7 +66,7 @@ public class TilemapMenuIcon extends JComponent{
     }
     /**
      * このメニューアイコンが開閉するメニューコンテナを返します。
-     * @return
+     * @return メニューコンテナ
      */
     public TilemapMenuContainer getMenuContainer() {
         return container;

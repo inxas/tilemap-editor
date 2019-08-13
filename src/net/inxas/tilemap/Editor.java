@@ -30,6 +30,7 @@ public final class Editor {
     }
     /**
      * このクラスの唯一のインスタンスを取得します。
+     * @return インスタンス
      */
     public static Editor getInstance() {
         return InstanceHolder.INSTANCE;

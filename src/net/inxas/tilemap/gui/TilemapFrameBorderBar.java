@@ -45,17 +45,17 @@ public abstract class TilemapFrameBorderBar extends JComponent implements MouseL
     protected int pressedY;
     /** 斜め方向への移動をサポートしているならtrue */
     protected boolean isSupportedCursor;
-    /** マウスカーソルのデザインが{@value #nearCursor}に切り替わる指標 */
+    /** マウスカーソルのデザインが{@link #nearCursor}に切り替わる指標 */
     protected int near;
-    /** マウスカーソルのデザインが{@value #behindCursor}に切り替わる指標 */
+    /** マウスカーソルのデザインが{@link #behindCursor}に切り替わる指標 */
     protected int behind;
     /** 現在のマウスカーソルのデザインの指標 */
     protected int nowCursorPoint;
-    /** 現在のマウスカーソルが{@value #nearCursor}であることを示す値 */
+    /** 現在のマウスカーソルが{@link #nearCursor}であることを示す値 */
     protected static final int NEAR = 0;
-    /** 現在のマウスカーソルが{@value #hoveringCursor}であることを示す値 */
+    /** 現在のマウスカーソルが{@link #hoveringCursor}であることを示す値 */
     protected static final int NORMAL = 1;
-    /** 現在のマウスカーソルが{@value #behindCursor}であることを示す値 */
+    /** 現在のマウスカーソルが{@link #behindCursor}であることを示す値 */
     protected static final int BEHIND = 2;
     /** 現在のマウスカーソルが何なのかを示す */
     protected int nowCursorMode;
@@ -82,20 +82,20 @@ public abstract class TilemapFrameBorderBar extends JComponent implements MouseL
         topMin = bottomMin = leftMin = rightMin = false;
     }
     /**
-     * {@value #hoveringCursor}を定義するためのメソッドです。
-     * @return {@value #hoveringCursor}として適しているカーソル
+     * {@link #hoveringCursor}を定義するためのメソッドです。
+     * @return {@link #hoveringCursor}として適しているカーソル
      */
     public abstract Cursor createHoveringCursor();
     /**
-     * {@value #nearCursor}を定義するためのメソッドです。
-     * @return {@value #nearCursor}として適しているカーソル
+     * {@link #nearCursor}を定義するためのメソッドです。
+     * @return {@link #nearCursor}として適しているカーソル
      */
     public Cursor createNearCursor() {
         return null;
     }
     /**
-     * {@value #behindCursor}を定義するためのメソッドです。
-     * @return {@value #behindCursor}として適しているカーソル
+     * {@link #behindCursor}を定義するためのメソッドです。
+     * @return {@link #behindCursor}として適しているカーソル
      */
     public Cursor createBehindCursor() {
         return null;

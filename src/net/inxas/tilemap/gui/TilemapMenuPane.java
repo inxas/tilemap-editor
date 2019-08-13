@@ -93,7 +93,7 @@ public class TilemapMenuPane extends JComponent {
 
     /**
      * 現在表示されているコンテナを返します。
-     * @return
+     * @return 表示されているコンテナ
      */
     public TilemapMenuContainer getMenuContainer() {
         return currentContainer;

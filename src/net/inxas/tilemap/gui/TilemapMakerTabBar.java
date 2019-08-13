@@ -77,7 +77,7 @@ public class TilemapMakerTabBar extends JComponent {
 
     /**
      * 現在追加されているワークの一覧を返します。
-     * @return
+     * @return ワークの一覧
      */
     public Work[] getWorks() {
         return (Work[])works.keySet().toArray();

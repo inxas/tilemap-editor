@@ -84,7 +84,7 @@ public class TilemapToolPane extends JComponent {
     /**
      * このメソッドは{@link TilemapEditorPane}によって呼び出されます。
      * 通常は呼び出さないでください。
-     * @param normalWidth
+     * @param normalWidth normalWidth
      */
     void setNormalWidth(int normalWidth) {
         this.normalWidth = normalWidth;

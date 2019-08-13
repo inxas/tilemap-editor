@@ -16,6 +16,7 @@ public enum Properties {
     /**
      * コンストラクタです。
      * @param value プロパティの値
+     * @param type プロパティのタイプ
      */
     private Properties(String value,PropertyType type) {
         set(value);

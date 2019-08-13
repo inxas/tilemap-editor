@@ -27,7 +27,7 @@ public abstract class TilemapTheme {
     }
 
     /**
-     * {@value #tilemapTheme}を返します。もしnullならばデフォルトテーマを返します。
+     * {@link #tilemapTheme}を返します。もしnullならばデフォルトテーマを返します。
      * @return tilemapTheme
      */
     public static TilemapTheme getTheme() {

@@ -18,13 +18,12 @@ import java.awt.geom.AffineTransform;
 import java.awt.geom.Point2D;
 import java.awt.geom.Rectangle2D;
 
-import javax.swing.Icon;
 import javax.swing.JComponent;
 import javax.swing.SwingUtilities;
 import javax.swing.plaf.UIResource;
 
 /**
- * このL&Fに対しての様々な機能をそろえています。
+ * このL&amp;Fに対しての様々な機能をそろえています。
  * @author inxas
  * @since 2019/07/27
  * @version 0.0-alpha
@@ -234,8 +233,8 @@ public class TilemapUtils {
     }
     /**
      * 指定されたコンポーネントのトップレベルウィンドウのアイコンを返します。
-     * @param c
-     * @return
+     * @param c コンポーネント
+     * @return トップレベルウィンドウのアイコン
      */
     public static Image getWindowIconImage(Component c) {
         Window window = getWindow(c);
